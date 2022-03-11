@@ -9,8 +9,8 @@ namespace lab_01
     class Ulamek : IComparable<Ulamek>, IEquatable<Ulamek>
     {
 
-        private int Licznik { get => Licznik; }
-        private int Mianownik { get => Mianownik; }
+        private int Licznik { get => Licznik; set { } }
+        private int Mianownik { get => Mianownik; set { } }
         public Ulamek()
         {
 
@@ -53,60 +53,56 @@ namespace lab_01
             if (this.Licznik / this.Mianownik == other.Licznik / other.Mianownik) return 1;
             else return 0;
         }
-    }
 
-
-
-    public readonly struct Fraction
-    {
-        private readonly int A;
-        private readonly int B;
-
-        public Fraction(int a, int b)
-        {
-
-            A = a;
-            B = b;
-        }
-        public static Fraction operator +(Fraction a) => a;
-        public static Fraction operator -(Fraction a) => new Fraction(-a.A, a.B);
-        public static Fraction operator *(Fraction a, Fraction b)
-       => new Fraction(a.A * b.B, a.B * b.B);
-
-        public static Fraction operator /(Fraction a, Fraction b)
+        public static Ulamek operator +(Ulamek a) => a;
+        public static Ulamek operator -(Ulamek a) => new Ulamek(-a.Licznik, a.Mianownik);
+        public static Ulamek operator *(Ulamek a, Ulamek b)=> new Ulamek(a.Licznik * b.Mianownik, a.Mianownik * b.Mianownik);
+        public static Ulamek operator /(Ulamek a, Ulamek b)
         {
             if (b.A == 0)
             {
                 throw new DivideByZeroException();
             }
-            return new Fraction(a.A * b.B, a.B * b.A);
+            return new Ulamek(a.Licznik * b.Mianownik, a.Mianownik * b.Licznik);
         }
-
     }
+
+
+
+   
+        
+
+  
 
 
     public class UlamekTests
     {
         public void TestMethod1()
         {
-            Ulamek x = new Ulamek (12,2);
+            int Mianownik = 1;
+            int Licznik = 2;
+            Ulamek x = new Ulamek(Licznik,Mianownik);
         }
         public void TestMethod2()
         {
-            Ulamek z = new Ulamek();
+            int Licznik = -1;
+            int Mianownik = -2;
+            Ulamek y = new Ulamek(Licznik, Mianownik);
         }
         public void TestMethod3()
         {
-            Ulamek z = new Ulamek(-1,5);
+            int Licznik = -1;
+            int Mianownik = 2;
+            Ulamek z = new Ulamek(Licznik, Mianownik);
         }
         public void TestMethod4()
         {
-            Ulamek z = new Ulamek(2, 5);
-            Ulamek x = new Ulamek(5, 2);
-            
+            int Licznik = 1;
+            int Mianownik = -2;
+            Ulamek v = new Ulamek(Licznik, Mianownik);
              
         }
     }
 
 
-}
+ }
