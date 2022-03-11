@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace lab_01
 {
-    class Ulamek : IComparable<Ulamek>, IEquatable<Ulamek>
+    public class Ulamek : IComparable<Ulamek>, IEquatable<Ulamek>
     {
 
-        private int Licznik { get => Licznik; set { } }
-        private int Mianownik { get => Mianownik; set { } }
+        public int Licznik { get => Licznik; set { } }
+        public int Mianownik { get => Mianownik; set { } }
         public Ulamek()
         {
 
@@ -59,50 +59,23 @@ namespace lab_01
         public static Ulamek operator *(Ulamek a, Ulamek b)=> new Ulamek(a.Licznik * b.Mianownik, a.Mianownik * b.Mianownik);
         public static Ulamek operator /(Ulamek a, Ulamek b)
         {
-            if (b.A == 0)
+            if (b.Licznik == 0)
             {
                 throw new DivideByZeroException();
             }
             return new Ulamek(a.Licznik * b.Mianownik, a.Mianownik * b.Licznik);
         }
     }
-
-
-
-   
-        
-
-  
-
-
-    public class UlamekTests
-    {
-        public void TestMethod1()
+    public class Program { 
+        public static void Main()
         {
-            int Mianownik = 1;
-            int Licznik = 2;
-            Ulamek x = new Ulamek(Licznik,Mianownik);
+
         }
-        public void TestMethod2()
-        {
-            int Licznik = -1;
-            int Mianownik = -2;
-            Ulamek y = new Ulamek(Licznik, Mianownik);
-        }
-        public void TestMethod3()
-        {
-            int Licznik = -1;
-            int Mianownik = 2;
-            Ulamek z = new Ulamek(Licznik, Mianownik);
-        }
-        public void TestMethod4()
-        {
-            int Licznik = 1;
-            int Mianownik = -2;
-            Ulamek v = new Ulamek(Licznik, Mianownik);
-             
-        }
+    
     }
 
 
- }
+
+
+
+}
