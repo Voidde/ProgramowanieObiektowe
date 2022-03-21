@@ -47,7 +47,24 @@ namespace lab_02_zadanie
 
         internal void Print()
         {
-            ToString();
+            string result = $"Shop: {this.name} \n";
+            result += "-- People: --\n";
+
+
+            for (int i = 0; i < persons.Length; i++)
+            {
+                result += $"{persons[i]}";
+            }
+
+            result += "-- Products: --";
+
+            for (int i = 0; i < products.Length; i++)
+            {
+                result += $"{products[i]}";
+            }
+
+
+            Console.WriteLine(result);
         }
     }
 }

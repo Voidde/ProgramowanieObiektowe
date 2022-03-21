@@ -14,3 +14,19 @@ D:\Users\Gracjan.Winiarski\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\o
 D:\Users\Gracjan.Winiarski\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\ref\lab_02.dll
 D:\Users\Gracjan.Winiarski\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.pdb
 D:\Users\Gracjan.Winiarski\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.genruntimeconfig.cache
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.exe
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.deps.json
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.runtimeconfig.json
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.runtimeconfig.dev.json
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.dll
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\ref\lab_02.dll
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\bin\Debug\net5.0\lab_02.pdb
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.csproj.AssemblyReference.cache
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.AssemblyInfoInputs.cache
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.AssemblyInfo.cs
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.csproj.CoreCompileInputs.cache
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.dll
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\ref\lab_02.dll
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.pdb
+C:\Users\Szop Sracz\Desktop\ProgramowanieObiektowe\lab_02\lab_02\lab_02\obj\Debug\net5.0\lab_02.genruntimeconfig.cache

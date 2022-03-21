@@ -39,7 +39,7 @@ namespace lab_02
         }
         internal void AddTask(string taskName, TaskStatus taskStatus)
         {
-            tasks.Add(new Task() taskName;
+            
         }
         internal void UpdateTask(int v, TaskStatus done)
         {

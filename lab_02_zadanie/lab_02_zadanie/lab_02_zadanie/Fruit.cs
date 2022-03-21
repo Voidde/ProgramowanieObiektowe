@@ -14,7 +14,7 @@ namespace lab_02_zadanie
 
         public Fruit(string name, int count) : base(name)
         {
-            count = this.count;
+            
         }
 
         public override string ToString()
