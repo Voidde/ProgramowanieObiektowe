@@ -8,13 +8,13 @@ namespace lab_02_zadanie
 {
     class Fruit : Product
     {
-        private int count;
+        private int count ;
 
         public int Count { get => this.count; }
 
         public Fruit(string name, int count) : base(name)
         {
-            
+            this.count = count;
         }
 
         public override string ToString()
