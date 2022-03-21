@@ -18,8 +18,8 @@ namespace lab_02_zadanie
 
         public Person(string name, int age)
         {
-            name = this.name;
-            age = this.age;
+            this.name = name;
+            this.age = age;
         }
 
         public override string ToString()

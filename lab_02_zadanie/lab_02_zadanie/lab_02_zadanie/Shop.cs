@@ -18,9 +18,9 @@ namespace lab_02_zadanie
 
         public Shop(string name, Person[] persons, Product[] products)
         {
-            name = this.name;
-            persons = this.persons;
-            products = this.products;
+            this.name = name;
+            this.persons = persons;
+            this.products = products;
         }
 
         public override string ToString()

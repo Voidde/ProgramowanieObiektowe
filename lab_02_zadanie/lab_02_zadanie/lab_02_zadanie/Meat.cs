@@ -14,7 +14,7 @@ namespace lab_02_zadanie
 
         public Meat(string name, double weight) : base(name)
         {
-            weight = this.weight;
+            this.weight = weight;
         }
 
         public override string ToString()

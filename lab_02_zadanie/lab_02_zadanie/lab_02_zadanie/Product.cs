@@ -12,7 +12,7 @@ namespace lab_02_zadanie
 
         public string Name { get => this.name; }
 
-        public Product(string name) => name = this.name;
+        public Product(string name) => this.name = name;
 
         public override string ToString()
         {
