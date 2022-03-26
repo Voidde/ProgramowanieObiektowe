@@ -12,7 +12,7 @@ namespace lab_02_zadanie
 
         private int age;
 
-        public string Name { get => this.name; }
+        public string Name { get => this.name;  }
 
         public int Age { get => this.age; }
 

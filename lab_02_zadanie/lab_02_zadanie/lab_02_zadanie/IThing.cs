@@ -8,6 +8,7 @@ namespace lab_02_zadanie
 {
     public interface IThing
     {
-        string Name { get => this.Name; }
+        string Name { get => this.Name;}
+
     }
 }

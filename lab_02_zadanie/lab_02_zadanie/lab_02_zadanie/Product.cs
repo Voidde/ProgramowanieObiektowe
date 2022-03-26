@@ -17,7 +17,6 @@ namespace lab_02_zadanie
         public override string ToString()
         {
             return $"{name}".ToString();
-
         }
         virtual public void Print()
         {

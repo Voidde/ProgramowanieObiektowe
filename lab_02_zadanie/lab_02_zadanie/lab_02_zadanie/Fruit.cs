@@ -20,6 +20,7 @@ namespace lab_02_zadanie
         public override string ToString()
         {
             return $"{base.ToString()} ({count} fruits)";
+
         }
 
         

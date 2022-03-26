@@ -44,6 +44,7 @@ namespace lab_02_zadanie
 
 
             Console.WriteLine(result);
+
         }
     }
 }

@@ -13,6 +13,7 @@ namespace lab_02_zadanie
         public Buyer(string name, int age) : base(name, age)
         {
             
+
         }
 
         public override string ToString()

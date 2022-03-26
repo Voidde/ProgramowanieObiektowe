@@ -15,7 +15,6 @@ namespace lab_02_zadanie
 
         public override string ToString()
         {
-
             return $"Seller : {base.ToString()}\n";
 
         }
