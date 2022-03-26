@@ -14,13 +14,15 @@ namespace lab_02_zadanie
 
         public Fruit(string name, int count) : base(name)
         {
-            
+            this.count = count;
         }
 
         public override string ToString()
         {
             return $"{base.ToString()} ({count} fruits)";
         }
+
+        
 
     }
 }

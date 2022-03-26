@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_02_zadanie
 {
-    class Person
+    abstract class Person : IThing
     {
         private string name;
 
@@ -22,11 +22,11 @@ namespace lab_02_zadanie
             this.age = age;
         }
 
-        public override string ToString()
+         public override string ToString()
         {
             return $"{name} ({age} y.o)".ToString();
         }
-        internal void Print()
+         virtual public void Print()
         {
             ToString();
         }

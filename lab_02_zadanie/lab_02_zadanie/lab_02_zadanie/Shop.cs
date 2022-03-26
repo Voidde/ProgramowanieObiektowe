@@ -53,14 +53,16 @@ namespace lab_02_zadanie
 
             for (int i = 0; i < persons.Length; i++)
             {
-                result += $"{persons[i]}";
+                result += $"\t{persons[i]}";
+
+
             }
 
-            result += "-- Products: --";
+            result += "-- Products: -- \n";
 
             for (int i = 0; i < products.Length; i++)
             {
-                result += $"{products[i]}";
+                result += $"\t{products[i]} \n";
             }
 
 

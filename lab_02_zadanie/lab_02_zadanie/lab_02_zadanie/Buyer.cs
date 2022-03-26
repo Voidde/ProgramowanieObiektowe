@@ -17,9 +17,19 @@ namespace lab_02_zadanie
 
         public override string ToString()
         {
-            return $"Buyer : {base.ToString()}";
-        }
+            string result = $"Buyer: {base.ToString()}\n";
+            if (tasks.Any())
+            {
+                result += "\t\t-- Products: --\n";
+                for (int i = 0; i < tasks.Count; i++)
+                {
+                    result += $"\t\t{tasks[i]}\n";
+                }
 
+            }
+
+            return result;
+        }
 
 
         internal void AddProduct(Product product)

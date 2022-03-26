@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lab_02_zadanie
 {
-    class Product
+    abstract class Product : IThing
     {
         private string name;
 
@@ -19,9 +19,10 @@ namespace lab_02_zadanie
             return $"{name}".ToString();
 
         }
-        internal void Print()
+        virtual public void Print()
         {
             ToString();
         }
     }
 }
+
