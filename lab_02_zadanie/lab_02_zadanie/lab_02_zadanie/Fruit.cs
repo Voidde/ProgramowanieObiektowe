@@ -8,7 +8,7 @@ namespace lab_02_zadanie
 {
     class Fruit : Product
     {
-        private int count;
+        private int count ;
 
         public int Count { get => this.count; }
 

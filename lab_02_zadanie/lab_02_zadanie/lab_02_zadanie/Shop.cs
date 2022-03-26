@@ -23,28 +23,6 @@ namespace lab_02_zadanie
             this.products = products;
         }
 
-        public override string ToString()
-        {
-            string result = $"Shop: {this.name} \n";
-            result += "-- People: --\n";
-
-
-            for (int i = 0; i < persons.Length; i++)
-            {
-                result += $"{persons[i]}";
-            }
-
-            result += "-- Products: --";
-
-            for (int i = 0; i < products.Length; i++)
-            {
-                result += $"{products[i]}";
-            }
-
-
-                return result;
-        }
-
         internal void Print()
         {
             string result = $"Shop: {this.name} \n";
@@ -54,8 +32,13 @@ namespace lab_02_zadanie
             for (int i = 0; i < persons.Length; i++)
             {
                 result += $"\t{persons[i]}";
+<<<<<<< HEAD
 
 
+=======
+                
+                
+>>>>>>> fb6d5d36e6e6f78d6d387ba377c9461b6fa95b1e
             }
 
             result += "-- Products: -- \n";

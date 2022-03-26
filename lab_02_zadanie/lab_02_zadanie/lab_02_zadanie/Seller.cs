@@ -15,7 +15,11 @@ namespace lab_02_zadanie
 
         public override string ToString()
         {
+<<<<<<< HEAD
             return $"Seller : {base.ToString()}\n";
+=======
+            return $"Seller: {base.ToString()}\n";
+>>>>>>> fb6d5d36e6e6f78d6d387ba377c9461b6fa95b1e
         }
 
 

@@ -18,14 +18,22 @@ namespace lab_02_zadanie
         public override string ToString()
         {
             string result = $"Buyer: {base.ToString()}\n";
+<<<<<<< HEAD
             if (tasks.Any())
+=======
+             if (tasks.Any())
+>>>>>>> fb6d5d36e6e6f78d6d387ba377c9461b6fa95b1e
             {
                 result += "\t\t-- Products: --\n";
                 for (int i = 0; i < tasks.Count; i++)
                 {
                     result += $"\t\t{tasks[i]}\n";
                 }
+<<<<<<< HEAD
 
+=======
+                
+>>>>>>> fb6d5d36e6e6f78d6d387ba377c9461b6fa95b1e
             }
 
             return result;
