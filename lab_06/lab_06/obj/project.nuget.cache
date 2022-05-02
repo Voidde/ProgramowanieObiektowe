@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "59LDORRCgOZAnIxrgMttuV9aHQerKDysXkc98VtG7aWQfHcNT4m7r5YPaCUXwZRX6cWtYf90IBuTXRIP9P90nw==",
+  "dgSpecHash": "Qb4kNahP7qyBuIAzG9yyVk6LRTtYB/kNSM0WVk/WfJ/hG8C55qSDccz5vsjJ+umxx+nst0OisivXlvKMgr+zOQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\Gracjan.Winiarski\\Desktop\\ProgramowanieObiektowe\\lab_06\\lab_06\\lab_06.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Szop Sracz\\Desktop\\ProgramowanieObiektowe\\lab_06\\lab_06\\lab_06.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Szop Sracz\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512"
+  ],
   "logs": []
 }
